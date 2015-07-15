@@ -1,0 +1,18 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.BS.domain">  
+    <class name="Life_ZF" table="houser">   
+        <id name="houId" column="houId">  
+            <generator class="increment" />  
+        </id>  
+        <property name="houAdd" column="houAdd"/>
+        <property name="houSize" column="houSize"/>  
+        <property name="furExp" column="furExp"/> 
+        <property name="fee" column="fee"/> 
+        <property name="hostName" column="hostName"/>     
+        <property name="contact" column="contact"/>     
+        <property name="beginDate" column="beginDate"/>     
+        <property name="isRent" column="isRent"/>     
+    </class>  
+</hibernate-mapping>  

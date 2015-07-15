@@ -1,0 +1,18 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.BS.domain">  
+    <class name="Life_SC" table="vegser">   
+        <id name="vegId" column="vegId">  
+            <generator class="increment" />  
+        </id>  
+        <property name="vegName" column="vegName"/>
+        <property name="vegKind" column="vegKind"/>  
+        <property name="vegExp" column="vegExp"/> 
+        <property name="vegAdd" column="vegAdd"/>
+        <property name="vegPrice" column="vegPrice"/>
+        <property name="dispactTime1" column="dispactTime1"/>
+        <property name="dispactTime2" column="dispactTime2"/> 
+        <property name="contact" column="contact"/>     
+    </class>  
+</hibernate-mapping>  

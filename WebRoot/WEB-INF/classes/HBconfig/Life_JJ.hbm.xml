@@ -1,0 +1,15 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.BS.domain">  
+    <class name="Life_JJ" table="teaser">   
+        <id name="teaId" column="teaId">  
+            <generator class="increment" />  
+        </id>  
+        <property name="teaName" column="teaName"/>
+        <property name="teaExp" column="teaExp"/>  
+        <property name="feeStd" column="feeStd"/> 
+        <property name="time" column="time"/> 
+        <property name="contact" column="contact"/>     
+    </class>  
+</hibernate-mapping>  

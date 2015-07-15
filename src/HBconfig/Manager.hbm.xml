@@ -1,0 +1,14 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.BS.domain">  
+    <class name="Manager" table="managerinf">   
+        <id name="id" column="managerId">  
+            <generator class="increment" />  
+        </id>  
+        <property name="username" column="managerName"/>
+        <property name="password" column="managerPswd"/>  
+        <property name="per" column="managerPer"/>  
+        <property name="contact" column="contact"/>     
+    </class>  
+</hibernate-mapping>  

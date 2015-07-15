@@ -1,0 +1,17 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.BS.domain">  
+    <class name="HeaNews" table="heanews">   
+        <id name="newsId" column="newsId">  
+            <generator class="increment" />  
+        </id>  
+        <property name="newsTitle" column="newsTitle"/>
+        <property name="newsPath" column="newsPath"/>  
+        <property name="rep" column="rep"/>  
+        <property name="newsTime" column="newsTime"/>
+        <property name="link" column="link"/>
+        <property name="phoAmo" column="phoAmo"/>
+        <property name="phoPath" column="phoPath"/>     
+    </class>  
+</hibernate-mapping>  

@@ -1,0 +1,55 @@
+﻿<form id="myForm" onsubmit="return validateForm()" action="InfoFB_LifeTest-ZF" method="post" class="form-horizontal" role="form">
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="title" class="control-label">房屋地址</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" name="houAdd">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="title" class="control-label">房屋大小</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" name="houSize">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="title" class="control-label">家具说明</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" name="furExp">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="title" class="control-label">每月价钱</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" name="fee">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="title" class="control-label">户主名字</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" name="hostName">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="title" class="control-label">联系方式</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" name="contact">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 pull-right">
+			<input type="submit" class="btn btn-primary" value="发布"/>
+		</div>
+	</div>
+</form>

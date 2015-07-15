@@ -1,0 +1,23 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.BS.domain">  
+    <class name="User" table="userinf">   
+        <id name="id" column="userId">  
+            <generator class="increment" />  
+        </id>  
+        <property name="username" column="userName"/>
+        <property name="password" column="userPswd"/> 
+        <property name="userNickName" column="userNickName"/>
+        <property name="userMail" column="userMail"/>
+        <property name="isName" column="isName"/>   
+        <property name="userRealName" column="userRealName"/>
+        <property name="userPhoneNum" column="userPhoneNum"/>  
+        <property name="userLength" column="userLength"/> 
+        <property name="userWeight" column="userWeight"/> 
+        <property name="userHobby" column="userHobby"/> 
+        <property name="userLoca" column="userLoca"/> 
+        <property name="userCard" column="userCard"/>  
+        <property name="userMon" column="userMon"/>  
+    </class>  
+</hibernate-mapping>  

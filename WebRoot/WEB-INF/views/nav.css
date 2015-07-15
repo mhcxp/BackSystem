@@ -1,0 +1,35 @@
+
+#Menu{
+	background-color:#F8F8F8;
+	margin-top:-20px;
+}
+
+.nav-stacked{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.my_btn{
+	background-color:#337ab7;
+	color: #fff;
+	border:2px solid #2e6da4;
+	border-radius:5px;
+	min-height: 34px;
+	min-width: 54px;
+}
+
+.my_btn:focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.my_btn:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.my_btn:active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}

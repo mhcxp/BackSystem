@@ -1,0 +1,17 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.BS.domain">  
+    <class name="Order" table="userordinf">   
+        <id name="ordId" column="ordId">  
+            <generator class="increment" />  
+        </id>  
+        <property name="ordMenId" column="ordMenId"/>
+        <property name="ordName" column="ordName"/> 
+        <property name="ordInf" column="ordInf"/>
+        <property name="ordPrice" column="ordPrice"/>
+        <property name="ordState" column="ordState"/>   
+        <property name="ordKind" column="ordKind"/>
+        <property name="serId" column="serId"/>  
+    </class>  
+</hibernate-mapping>  
